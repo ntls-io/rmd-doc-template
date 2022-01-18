@@ -7,8 +7,8 @@ output:
     bookdown::gitbook:
         split_by: section
     bookdown::pdf_book: default
-documentclass: report
-bibliography: ["ref.bib"]
+documentclass: article
+bibliography: "ref.bib"
 biblio-style: amsplain
 link-citations: yes
 ---
@@ -16,3 +16,5 @@ link-citations: yes
 # Abstract
 
 A concise, attractive summary of the contents
+
+\newpage
