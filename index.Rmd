@@ -13,7 +13,7 @@ biblio-style: amsplain
 link-citations: yes
 ---
 
-# Abstract
+# Abstract {-}
 
 A concise, attractive summary of the contents
 
