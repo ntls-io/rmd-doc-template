@@ -1,0 +1,13 @@
+---
+title: "An RMarkdown template"
+author: "Captain Nobody"
+date: "`r Sys.Date()`"
+site: "bookdown::bookdown_site"
+output:
+    bookdown::gitbook: default
+    bookdown::pdf_book: default
+documentclass: report
+bibliography: ["ref.bib"]
+biblio-style: amsplain
+link-citations: yes
+---
