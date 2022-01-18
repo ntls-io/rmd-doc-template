@@ -15,6 +15,7 @@ dry-clean:
 
 clean:
 	Rscript -e 'bookdown::clean_book(clean="TRUE")'
+	rm -f _*.Rmd _*.tex _*.html
 
 pdf:
 	Rscript -e 'bookdown::render_book(".", output_format="bookdown::pdf_book")'
