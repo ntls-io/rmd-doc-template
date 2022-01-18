@@ -4,7 +4,8 @@ author: "Captain Nobody"
 date: "`r Sys.Date()`"
 site: "bookdown::bookdown_site"
 output:
-    bookdown::gitbook: default
+    bookdown::gitbook:
+        split_by: section
     bookdown::pdf_book: default
 documentclass: report
 bibliography: ["ref.bib"]
